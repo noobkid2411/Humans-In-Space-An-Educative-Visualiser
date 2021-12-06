@@ -1,0 +1,57 @@
+const data=[
+    {
+       "S.no.": "0",
+       "Date": "1610",
+       "Event": "First telescopic observation of the night sky: discovery of Jupiter's moons, lunar craters and the phases of Venus.",
+       "Country": "Republic of Venice",
+       "Name": "Galileo Galilei",
+       "Summary": "When Galileo pointed his telescope at Jupiter, the largest planet in our solar system, he made a startling discovery. The planet had four \"stars\" surrounding it. Within days, Galileo figured out that these \"stars\" were actually moons in orbit of Jupiter. His discovery challenged common beliefs of his time about the bodies of our solar system. Continuing Galileo's legacy, modern telescopes and space probes observe the wonders of Jupiter's many moons.",
+       "Imglink": "images/before20/0.jpg"
+    },
+   {
+       "S.no.": "1",
+       "Date": "1813",
+       "Event": "First exposition of the rocket equation based on Newton's third law of motion: Treatise on the Motion of Rockets",
+       "Country": "UK",
+       "Name": "William Moore",
+       "Summary": "William Moore (fl. 1806 – c. 1823) was a British mathematician and early contributor to rocket theory. He worked at the Royal Military Academy, Woolwich. His 1813 Treatise was the first exposition of rocket mechanics based on Newton's third law of motion. ",
+       "Imglink": "images/before20/1.jpg"
+   },
+   {
+       "S.no.": "2",
+       "Date": "1840",
+       "Event": "First clear telescopic photograph of another world: the Moon.",
+       "Country": "United States",
+       "Name": "John William Draper",
+       "Summary": "French painter and inventor Louis Daguerre himself is believed to be the first person to take a photograph of the moon, using his daguerreotype process, on January 2, 1839. Unfortunately, in March of that same year, his entire laboratory burnt to the ground, destroying all his written records and much of his early experimental work–and that historical image of the moon. A year later, John William Draper, an American doctor and chemist, took his own daguerreotype of the moon.In 1850 Draper collaborated with astronomer William Cranch Bond to produce a daguerreotype of the star Vega. An attempt had been made in 1842 to photograph the sun, but the resolution was poor, so few details were visible. ",
+       "Imglink": "images/before20/2.jpg"
+   },
+   {
+       "S.no.": "3",
+       "Date": "1845",
+       "Event": "First proper observation of other galaxies which are termed \"whirlpool nebulae\".",
+       "Country": "UK",
+       "Name": "William Parsons",
+       "Summary": " In 1845, William Parsons, 3rd Earl of Rosse, employing a 72-inch (1.8 m) reflecting telescope at Birr Castle, Ireland, found that the Whirlpool possessed a spiral structure, the first nebula to be known to have one.These spiral nebulae were not recognized as galaxies until Edwin Hubble was able to observe Cepheid variables in some of these spiral nebulae, which provided evidence that they were so far away that they must be entirely separate galaxies. ",
+       "Imglink": "images/before20/3.jpg"
+   },
+   {
+       "S.no.": "4",
+       "Date": "1861",
+       "Event": "A Journey Through Space makes first proposal of using rockets for space flight",
+       "Country": "UK",
+       "Name": "William Leitch",
+       "Summary": "The first theoretical proposal of space travel using rockets was published by Scottish astronomer and mathematician William Leitch, in an 1861 essay \"A Journey Through Space\". More well-known (though not widely outside Russia) is Konstantin Tsiolkovsky's work, \"Исследование мировых пространств реактивными приборами\" (The Exploration of Cosmic Space by Means of Reaction Devices), published in 1903.Tsiolkovsky's rocketry work was not fully appreciated in his lifetime, but he influenced Sergey Korolev, who became the Soviet Union's chief rocket designer under Joseph Stalin, to develop intercontinental ballistic missiles to carry nuclear weapons as a counter measure to United States bomber planes.",
+       "Imglink": "images/before20/4.jpg"
+   },
+            
+   {
+       "S.no.": "5",
+       "Date": "1895",
+       "Event": "First proposal of space elevator",
+       "Country": "Russia",
+       "Name": "Konstantin Tsiolkovsky",
+       "Summary": "The concept of a tower reaching geosynchronous orbit was first published in 1895 by Konstantin Tsiolkovsky.His proposal was for a free-standing tower reaching from the surface of Earth to the height of geostationary orbit. Like all buildings, Tsiolkovsky's structure would be under compression, supporting its weight from below. Since 1959, most ideas for space elevators have focused on purely tensile structures, with the weight of the system held up from above by centrifugal forces. In the tensile concepts, a space tether reaches from a large mass (the counterweight) beyond geostationary orbit to the ground. This structure is held in tension between Earth and the counterweight like an upside-down plumb bob. The cable thickness is adjusted based on tension, it has its maximum at a geostationary orbit and the minimum on the ground.",
+       "Imglink": "images/before20/5.jpg"
+   }
+   ];

@@ -1,0 +1,111 @@
+body 
+{
+	margin: 0px;
+}
+header 
+{
+	background-image: url(../images/earth.gif);
+	height: 100vh;
+
+
+	background-size: 100% 100%;
+	margin: -1px;
+	
+
+}
+
+#back_button 
+{  background-color: transparent;
+    border :0;
+    position: fixed;
+    top: 2.5%;
+    left: 2.5%;
+    height: 4rem;
+    width: 4rem;
+}
+
+header h2
+{
+	color: #ffffff;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+	button 
+	{
+		font-family: "Verdana";
+		font-size: 2rem;
+		text-align: center;
+		display: block;
+		margin:auto;
+		background-color: transparent;
+		color: #1b1a1a;
+		border: solid;
+		border-color: #ffffff;
+		padding: 3px;
+	}
+	button:hover
+	{
+		background-color: #ffffff;
+		color: black;
+		box-shadow: 0 0 2rem 0 #ffffff;
+	}
+	h1{
+		margin: 0;
+		color: #ffffff;
+		/* font-family: "Verdana";
+		font-variant: small-caps; */
+		/* background: -webkit-linear-gradient(rgb(1, 158, 163), rgb(207, 92, 140));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent; */
+		font-family: Poppins,sans-serif;
+		font-size: 5rem;
+		text-align: center;
+	   padding: 5px;
+	 
+	}
+	
+   a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    color: rgb(19, 15, 75);
+}
+
+#rcorners1 {
+	border-radius: 25px;
+	background: #00000091;
+	padding: 30px; 
+	width: 1000px;
+	height: 450px; 
+    text-emphasis-color:white;
+	box-align:center;
+	margin-left: 100px;
+	text-align: center;
+	font-size:18px;
+  }
+  p{
+	  color: #ffffff;
+  }
+  #button2
+	{
+		font-family: "Verdana";
+		font-size: 2rem;
+		text-align: center;
+		margin:auto;
+		background-color: transparent;
+		color: #ffffff;
+		border: solid;
+		border-color: #ffffff;
+		padding: 3px;
+	}
+	#button2:hover
+	{
+		background-color: #000000;
+		color: rgb(255, 255, 255);
+		box-shadow: 0 0 2rem 0 #ffffff;}
+

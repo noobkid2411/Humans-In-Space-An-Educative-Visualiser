@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+   
+</head>
+<body onmouseover="playVid()">
+<audio id="myVideo" >
+	<source src="sounds/buttonsound.mp3" ></source>
+	<source src="audio/buttonsound.ogg"></source>
+	Your browser isn't invited for super fun audio time.
+</audio>
+    <header>
+      <a id = "back_button" href="home.html"><img src = "back.svg" id="back_button_image"></a>
+      <h1><center>Choose a time pocket!</center></h1>
+     
+      
+      
+      <center><button style="margin-top:13px" ><a  href="first.html"onclick="clicksound.playclip()"  > Before 20th Century</a></button> </center> 
+       <center><button style="margin-top:13px"><a href="second.html">1900-1956 </button> </a> </center>
+       <center><button style="margin-top:13px"><a href="third.html">1957-1959 </button> </a> </center>
+       <center><button style="margin-top:13px"><a href="fourth.html">1960-1969</button> </a> </center>
+       <center><button style="margin-top:13px"><a href="fifth.html">1970-1980 </button> </a> </center>
+       <center><button style="margin-top:13px"><a href="sixth.html">1981-1999 </button> </a> </center>
+       <center><button style="margin-top:13px"><a href="seventh.html">2000-2020 </button> </a> </center>
+   
+          </header>
+    
+<script>
+var aud = document.getElementById("myVideo"); 
+
+function playVid() { 
+  aud.play(); 
+} 
+
+function pauseVid() { 
+  aud.pause(); 
+} 
+</script>
+
+
+   
+
+</body>
+</html>

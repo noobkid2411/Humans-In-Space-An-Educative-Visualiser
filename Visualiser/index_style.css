@@ -1,0 +1,142 @@
+.stars 
+{
+    border-radius: 50%;
+    height: 1vh;
+    width: 1vh;
+    background-color: white;
+    position: absolute;
+     /* box-shadow:0px 0px 0.5vh 0.5vh rgba(230, 196, 196, 0.3) ;  */
+    
+}
+h1{
+    margin: 0;
+    color:#ffffff ;
+    /* font-family: "Verdana";
+    font-variant: small-caps; */
+    /* background: -webkit-linear-gradient(rgb(1, 158, 163), rgb(207, 92, 140));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-family: Poppins,sans-serif;
+    font-size: 8rem;
+    text-align: center;
+    padding: 5rem;
+}
+body
+{
+    margin: 0;
+}
+#main
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    transition: all 2s ease-in-out;
+    
+}
+.white-background 
+{
+    transition: all 10s ease-in-out !important;
+    background-color: white !important;
+}
+.typing-body
+{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button 
+{
+    font-family: "Verdana";
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    margin:auto;
+    background-color: transparent;
+    color:#ffffff;
+    border: solid;
+    border-color:#050505;
+}
+button:hover
+{
+    background-color:#ffffff;
+    color: black;
+    box-shadow: 0 0 2rem 0#ffffff;
+}
+.spinning-loader {
+    position: fixed;
+    left: 50vw;
+    top: 50vh;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    border-left-color: rgb(255, 255, 255);
+    background: transparent;
+    animation: rotate-s-loader 1s linear infinite;
+    
+  }
+  
+  @keyframes rotate-s-loader {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .not-visible
+  {
+      display: none;
+  }
+  #dynamic-txts
+  {
+    margin-left: 1rem;
+    height: 5rem;
+    line-height: 5rem;
+    overflow: hidden;
+  }
+  #dynamic-txts li{
+    list-style: none;
+    font-size: 4rem;
+    font-variant: small-caps;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 20s steps(4) 1;
+  }
+  @keyframes slide {
+    100%{
+      top: -20rem;
+    }
+  }
+  #dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 80px;
+  }
+  #dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid white;
+    animation: typing 5s steps(15) 4;
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+  
+  span
+  {
+      color: white;
+  }
